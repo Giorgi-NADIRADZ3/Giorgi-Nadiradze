@@ -1,0 +1,155 @@
+.CartItem__item {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+
+  .dropdown{
+    background-color: #ffff;
+    width: 500px;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    left: -470px;
+  }
+
+  .dropdown-text{
+ position: absolute;
+ display: flex;
+ flex-wrap: wrap;
+margin-top: 5px;
+margin-left: -5px;
+color: red;
+
+  }
+
+  .item-des{
+    color: #1D1F22;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.item-number{
+  margin-top: 20px;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+}
+
+.size button{
+  width: 30px;
+  height: 30px;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.second-button{
+  margin-left: 5px;
+}
+
+
+.red-button{
+  width: 30px;
+  height: 30px;
+  background-color: #D3D2D5;
+  border: 1px solid #5ECE7B;
+}
+.blue-button{
+  width: 30px;
+  height: 30px;
+  background-color: #2B2B2B;
+  border: 1px solid #5ECE7B;
+  margin-left: 5px;
+}
+.green-button{
+  width: 30px;
+  height: 30px;
+  background-color: #0F6450;
+  border: 1px solid #5ECE7B;
+  margin-left: 5px;
+}
+
+.item-plus{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1D1F22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.plus{
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  border: none;
+  background: none; 
+}
+
+.order-number{
+  margin-top: 55px;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: "Raleway";
+  font-style: normal;
+  margin-left: 9px;
+}
+
+.item-minus{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1D1F22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.minus{
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  border: none;
+  background: none;
+  margin-bottom: 6px;
+}
+.img-div{
+  width: 140px;
+  height: 350px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.color-text{
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+  .imgcart {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+ 
+  

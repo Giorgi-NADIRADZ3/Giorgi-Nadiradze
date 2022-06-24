@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+  }
+  .nav {
+    height: 80px;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+  .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  .listitem{
+    list-style: none;
+    padding: 0 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  
+  .logo{
+    margin-left: -160px;
+    cursor: pointer;
+  }
+  
+  
+  .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  select{
+    border: none;
+  }
+  
+  
+    
+    .cart__icon {
+      position: relative;
+  
+    }
+    
+  
+    .item__count {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      background-color: red;
+      z-index: 10;
+      border-radius: 50%;
+      font-size: 10px;
+      height: 14px;
+      width: 14px;
+      top: -50%;
+      right: -50%;
+      color: white;
+    }
