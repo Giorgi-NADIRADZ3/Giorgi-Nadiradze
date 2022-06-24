@@ -3,7 +3,7 @@ const data = {
     {
       id: "1",
       title: "Apollo Running Short",
-      img: "../images/wcl1.jpg",
+      img: "https://media.istockphoto.com/photos/swetter-wool-knit-turtleneck-brown-and-white-striped-picture-id528180439?k=20&m=528180439&s=612x612&w=0&h=C0WkDArKFf8KYGkrkuFwFcvM8Yy9rEsdMEbFRm2eL40=",
       price: 89.99,
       category: "women",
     },
